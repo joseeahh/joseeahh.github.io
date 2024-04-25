@@ -9,7 +9,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Serif;
+  font-family: Arial;
 }
 
 /* Style tab links */
@@ -37,45 +37,37 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: rgb(185, 229, 233);}
-#News {background-color: rgb(248, 207, 221);}
-#Contact {background-color: rgb(210, 230, 190);}
-#About {background-color: rgb(207, 216, 220);}
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, rgb(185, 229, 233)) id="defaultOpen">About Page</button>
-<button class="tablink" onclick="openPage('News', this, rgb(248, 207, 221))">News</button>
-<button class="tablink" onclick="openPage('Contact', this, rgb(210, 230, 190))">Contact</button>
-<button class="tablink" onclick="openPage('About', this, rgb(207, 216, 220))">About</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
 <div id="Home" class="tabcontent">
-  <h1>Josiah Rondaris</h1>
-  <p>Currently building a website for some of my projects regarding math and coding.</p>
-  <p>Also studying for actuarial exams. Please send help.</p>
-  <p>Who knows, I might start adding stuff here.</p>
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
 </div>
 
 <div id="News" class="tabcontent">
-  <h1>Math Discussion</h1>
-  <p>I'm still currently figuring out how to do HTML again, so it might take a while for me to add resources.</p>
-  <h2>Abstract Algebra</h2>
-  <p>Gallian's <i>Contemporary Abstract Algebra</i> was the first book that I used to read. It was a good book.</p>
-  <h2>Real Analysis</h2>
-  <p>Rudin's <i>Principles of Mathematical Analysis</i> was the first book I read for analysis. It was a terrible experience to do on my own...</p>
-  <h2>Statistics</h2>
-  <p>Grimmett and Stirzaker's <i>Probability and Random Processes</i> was recommended to me by one of my professors. It inspired me to get into measure theory, which would later be covered through my studies in analysis.</p>
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h1>Coding Projects</h1>
-  <p>In progress. Probably something about Python, C++, and Java in here.</p>
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
 <div id="About" class="tabcontent">
-  <h1>Actuarial Studies</h1>
-  <p>Currently through Exam P and Exam FM. Waiting for Exam SRM and FAM.</p>
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
 </div>
 
 <script>
