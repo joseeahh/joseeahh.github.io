@@ -39,40 +39,44 @@ body, html {
 
 #Home {background-color: Tomato;}
 #Academics {background-color: MediumSeaGreen;}
-#Contact {background-color: DodgerBlue;}
-#About {background-color: Orange;}
+#Books {background-color: DodgerBlue;}
+#Actuarial Exams {background-color: Orange;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('Academics', this, 'green')">Academics</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('Home', this, 'Tomato')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Academics', this, 'MediumSeaGreen')">Academics</button>
+<button class="tablink" onclick="openPage('Books', this, 'DodgerBlue')">Books</button>
+<button class="tablink" onclick="openPage('Actuarial Exams', this, 'Orange')">Actuarial Exams</button>
 
 <div id="Home" class="tabcontent">
-  <h3>Home</h3>
   <p>Hello! My name is Josiah Rondaris, and this is my personal website.</p>
   <p>There isn't much to develop as I relearn HTML, but keep viewing for ongoing progress.</p>
 </div>
 
 <div id="Academics" class="tabcontent">
-  <h3>Academics</h3>
-  <p>I will list out some of the classes I have taken throughout my college career.</p>
+  <p>Here, I will list out some of the classes I have taken throughout my college career.</p>
   <h2>Fall 2022</h2>
   <ul>
     <li><b>MATH 108 - Introduction to Formal Mathematics</b>: It was a fun introductory class to the vast world of notation and logic that mathematics uses. There was a particularly enjoyable unit when the course discussed cardinalities of sets, and I got to enjoy differentiating between countability of sets.</li>
     <li><b>MATH 96F - Mathematical Programming</b>: Utilized Python in solving various mathematical problems with some real-world applications. A fun project was the Canoe modeling project, where we used the SciPy library along with some basic calculus to create models that predict the movement of canoeing and mimicking the real-life efficiency of professional kayakers.</li>
+    <li><b>MATH 105A - Advanced Mathematics for Science and Engineering I</b>: Lots of linear and basic algebra, along with differential equations and physical equations. Nothing too much to say here, except the theory and real analysis results that allowed us to use specific mathematical machinery was pretty cool.</li>
+    <li><b>MATH 170 - Linear Programming</b>: Linear algebra and optimization techniques based off calculus made this class, along with some small projects done in MATLAB due to the complex minimization and maximization problems we encountered. Reviewing matrix algebra and advanced theorems was fun, though!</li>
   </ul>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+<div id="Books" class="tabcontent">
+  <p>I've read a small number of math textbooks (which I hope to grow in the future). Here's an (almost) exhaustive list of books I have used/read through, and some preliminary thoughts on them.</p>
+  <ul>
+    <li><i>Linear Algebra Done Right, 3rd Edition</i>, by Sheldon Axler</li>
+    <li><i>Principles of Mathematical Analysis, 3rd Edition</i>, by Walter Rudin</li>
+    <li><i>Contemporary Abstract Algebra, 10th Edition</i>, by Joseph Gallian</li>
+    <li><i>Abstract Algebra, 3rd Edition</i>, by David Dummit and Richard Foote</li>
+  </ul>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
+<div id="Actuarial Exams" class="tabcontent">
   <p>Who we are and what we do.</p>
 </div>
 
