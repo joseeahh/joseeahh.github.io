@@ -40,7 +40,7 @@ body, html {
 #Home {background-color: Tomato;}
 #Academics {background-color: MediumSeaGreen;}
 #Books {background-color: DodgerBlue;}
-#Actuarial Exams {background-color: Orange;}
+#ActuarialExams {background-color: Orange;}
 </style>
 </head>
 <body>
@@ -48,7 +48,7 @@ body, html {
 <button class="tablink" onclick="openPage('Home', this, 'Tomato')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openPage('Academics', this, 'MediumSeaGreen')">Academics</button>
 <button class="tablink" onclick="openPage('Books', this, 'DodgerBlue')">Books</button>
-<button class="tablink" onclick="openPage('Actuarial Exams', this, 'Orange')">Actuarial Exams</button>
+<button class="tablink" onclick="openPage('ActuarialExams', this, 'Orange')">Actuarial Exams</button>
 
 <div id="Home" class="tabcontent">
   <p>Hello! My name is Josiah Rondaris, and this is my personal website.</p>
@@ -76,8 +76,12 @@ body, html {
   </ul>
 </div>
 
-<div id="Actuarial Exams" class="tabcontent">
-  <p>Who we are and what we do.</p>
+<div id="ActuarialExams" class="tabcontent">
+  <p>A list of the exams I have passed so far.</p>
+  <ul>
+    <li>Exam P</li>
+    <li>Exam FM</li>
+  </ul>
 </div>
 
 <script>
