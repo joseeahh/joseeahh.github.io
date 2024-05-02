@@ -37,27 +37,33 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color: Tomato;}
+#Academics {background-color: MediumSeaGreen;}
+#Contact {background-color: DodgerBlue;}
+#About {background-color: Orange;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')">Academics</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+  <p>Hello! My name is Josiah Rondaris, and this is my personal website.</p>
+  <p>There isn't much to develop as I relearn HTML, but keep viewing for ongoing progress.</p>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p> 
+<div id="Academics" class="tabcontent">
+  <h3>Academics</h3>
+  <p>I will list out some of the classes I have taken throughout my college career.</p>
+  <h2>Fall 2022</h2>
+  <ul>
+    <li><b>MATH 108 - Introduction to Formal Mathematics</b>: It was a fun introductory class to the vast world of notation and logic that mathematics uses. There was a particularly enjoyable unit when the course discussed cardinalities of sets, and I got to enjoy differentiating between countability of sets.</li>
+    <li><b>MATH 96F - Mathematical Programming</b>: Utilized Python in solving various mathematical problems with some real-world applications.</li>
+  </ul>
 </div>
 
 <div id="Contact" class="tabcontent">
